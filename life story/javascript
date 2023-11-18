@@ -1,0 +1,15 @@
+// Example: Adding a simple alert
+document.getElementById('myButton').addEventListener('click', function() {
+    alert('Button clicked!');
+});
+
+<script>
+    // JavaScript function to show the Childhood section
+    function showChildhood() {
+        // Scroll to the Childhood section
+        document.getElementById('childhood').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+    // Add more functions for other sections as needed
+</script>
